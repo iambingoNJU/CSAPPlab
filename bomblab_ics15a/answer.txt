@@ -1,0 +1,19 @@
+1. You can Russia from land here in Alaska.
+
+2. input at least 6 numbers: a1, a2, a3, a4, a5, a6, it should have such relationship: a[i]=a[i-1]+i. But you can input more numbers.
+
+3. input 2 numbers: the first one shodld be 0~7.
+	0   0x3dc
+	1   0x276
+	2   0x1c3
+	3   0x210
+	4   0x1d9
+	5   0x1d8
+	6   0x32a
+	7   0x35d
+
+4. 3 0 DrEvil
+
+5. 5 115
+
+6. 47

