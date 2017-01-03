@@ -1,5 +1,5 @@
-## This is labs in CSAPP.
-I did it when learning ICS.
+## Labs in CSAPP.
+
 
 1. Data operation lab
 2. Binary bomb lab
